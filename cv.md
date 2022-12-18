@@ -2,7 +2,7 @@
 ## Contacts
 * Location: Minsk, Belarus
 * Phone: +375 29 162-85-18
-* E-mail: tymanovich17@gmail.com 
+* E-mail: tymanovich17@gmail.com
 * [GitHub](https://github.com/destination2)
 
 ## About Me
