@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Open_Sans;
+    src: url("assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open_Sans', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.avatar {
+    margin: 10px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #5D5C61;
+    margin: 0;
+}
+
+.profession {
+    margin: 10px;
+}
+
+.header {
+    background-color: #5D5C61;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    color: #5D5C61;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #B1A296;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    width: 49%;
+    padding: 0px 40px;
+    border-bottom: 1px solid #5D5C61;
+    margin-bottom: 10px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-bottom: 3px solid #5D5C61;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        border-bottom: 5px solid #5D5C61;
+    }
+}
+
+.footer {
+    background-color: #5D5C61;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #B1A296;
+    margin: 10px 0 0;
+
+}
+
+.link {
+    text-decoration: none;
+    color:rgb(70, 160, 219);
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color:#B1A296;
+}
+
+.course-logo {
+    width: 170px;
+    height: 70px;
+    margin: 10px 30px;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: white;
+    margin: 0 10px;
+}
+
+.footer-link {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+}
